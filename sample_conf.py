@@ -2,8 +2,12 @@
 nsamples_per_chain = 3000 #3000 is for testing do more for production:
 chains = 16
 tune = 1*1000 #600 is just enough with Potential on synthetic data
-njobs = 1
 discard_tuned_sample = False
+block_size = 1000
+init = 'advi+adapt_diag'
+
+## >>>>>> Changing parameters below will render `batch_analyse.py` unusable <<<<<
+njobs = 1
 approx = False
 # Fasle to use normal tuning
 # 'advi' for ADVI
@@ -12,9 +16,7 @@ approx = False
 # 'asvgd' for Amortized Stein Variational Gradient Descent
 # 'nfvi' for Normalizing Flow with default scale-loc flow
 # 'nfvi=<formula>' for Normalizing Flow using formula
-block_size = 1000
 from_truth = False
-init = 'advi+adapt_diag'
 rescale = True
 
 ## >>>>>>>>>> ADVANCED <<<<<<<<<<<<<<
