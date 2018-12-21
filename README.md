@@ -92,7 +92,7 @@ and $u$ points are marked with green and red respectively. If these points alone
 appear as outliers on these plots, it is a sign that the chain is stuck in the
 reverse-order local maximum.
 
-[[docs/images/spur/pred_m_eq_3_trace.png | alt=spurious mode]] 
+!(spurious mode)[docs/images/spur/pred_m_eq_3_trace.png]
 
 ### Hybrid local maxima in higher-order bias models
 
