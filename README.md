@@ -110,7 +110,10 @@ all methods have this region in approximately the same place :
 Additional signature of this situation is multiple $p$ with  bimodal marginal distribution of qp:
 
 ![bimodal marginal for q19](docs/images/spur/q19.png)
-And non-zero random error correlation for all methods:
+
+And non-zero random error correlation for *all* methods:
+
+![non-zero random error correlation for all methods](docs/images/spur/R.png)
 
 
 
