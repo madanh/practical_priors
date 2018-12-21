@@ -103,6 +103,10 @@ value of $q_p$ has a very characteristic clustering near regions of zero
 predicted derivative of measurement method systematic response w.r.t $q$, and
 all methods have this region in approximately the same place :
 
+
+![no information local maximum predictive plot method 0](docs/images/spur/pred_m_eq_0_trace.png)
+![no information local maximum predictive plot method 2](docs/images/spur/pred_m_eq_2_trace.png)
+
 Additional signature of this situation is multiple $p$ with  bimodal marginal distribution of qp:
 
 And non-zero random error correlation for all methods:
