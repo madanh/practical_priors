@@ -113,7 +113,7 @@ Additional signature of this situation is multiple $p$ with  bimodal marginal di
 
 And non-zero random error correlation for *all* methods:
 
-![non-zero random error correlation for all methods](docs/images/spur/R.png)
+![non-zero random error correlation for all methods](docs/images/spur/histR.png)
 
 
 
