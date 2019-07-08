@@ -96,9 +96,14 @@ reverse-order local maximum.
 
 ### Hybrid local maxima in higher-order bias models
 
-I don’t have a rigorous theory for the nature of these local maxima, but they
-occur fairly frequently when using quadratic or higher degree polynomials for
-the bias, especially with ADVI initialization. The distribution of the expected
+For K>=2 the model is not estimable and we cane expect ot get multiple modes. 
+
+The ones that incorrectly explain the data through correlation can be distinguished by
+non-zero random error correlation for *all* methods:
+
+![non-zero random error correlation for all methods](docs/images/spur/histR.png)
+
+Another sign of such mode is that distribution of the expected
 value of $q_p$ has a very characteristic clustering near regions of zero
 predicted derivative of measurement method systematic response w.r.t $q$, and
 all methods have this region in approximately the same place :
@@ -111,23 +116,4 @@ Additional signature of this situation is multiple $p$ with  bimodal marginal di
 
 ![bimodal marginal for q19](docs/images/spur/q19.png)
 
-And non-zero random error correlation for *all* methods:
-
-![non-zero random error correlation for all methods](docs/images/spur/histR.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Depending on the data and initialization more than half of the chains may end up in such spurious local maximum, be prepared to sample more than 16 chains before arriving at a solution.
+Depending on the data and initialization more than half of the chains may end up in such spurious local maximum, be prepared to sample more than 16 chains before arriving at a correct solution.
