@@ -94,11 +94,10 @@ reverse-order local maximum.
 
 ![spurious mode](docs/images/reverse/pred_m_eq_3_trace.png)
 
-### Hybrid local maxima in higher-order bias models
+### Correlation-based local maxima in higher-order bias models
 
-For K>=2 the model is not estimable and we cane expect ot get multiple modes. 
-
-The ones that incorrectly explain the data through correlation can be distinguished by
+For K>=2 the model is not estimable and we can expect ot get modes that 
+incorrectly explain the data through correlation. They can be distinguished by
 non-zero random error correlation for *all* methods:
 
 ![non-zero random error correlation for all methods](docs/images/spur/histR.png)
