@@ -96,8 +96,9 @@ reverse-order local maximum.
 
 ### Correlation-based local maxima in higher-order bias models
 
-For K>=2 the model is not estimable and we can expect ot get modes that 
-incorrectly explain the data through correlation. They can be distinguished by
+For K>=2 the model is not estimable and we can expect to get modes that 
+incorrectly explain most of the data variance through random error correlation. 
+They can be distinguished by
 non-zero random error correlation for *all* methods:
 
 ![non-zero random error correlation for all methods](docs/images/spur/histR.png)
